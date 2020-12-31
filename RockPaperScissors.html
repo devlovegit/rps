@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body id="body">
+    <header>
+      <h1>Rock Paper Scissors</h1>
+      <p>
+        <i>
+          You already know how to play this game!
+        </i>
+      </p>
+    </header>
+    <main>
+      <table>
+        <caption>
+          <h3 class="bold">
+            scores
+          </h3>
+        </caption>
+        <tbody>
+          <tr>
+            <th>Player</th>
+            <th>Tie</th>
+            <th>Computer</th>
+          </tr>
+          <tr>
+            <td id="player-score">0</td>
+            <td id="tie-score">0</td>
+            <td id="computer-score">0</td>
+          </tr>
+        </tbody>
+      </table>
+      <aside class="game-images">
+        <section>
+          <span class="bold">player</span>
+          <img id ="player" class ="player-img" src="images/rock1.png" alt="Rock" />
+        </section>
+        <section>
+          <span class ="bold">computer</span>
+          <img id ="computer" class ="computer-img" src="images/paper1.png" alt="Paper" />
+        </section>
+      </aside>
+    </main>
+    <aside class="game-buttons">
+      <button id="rock-btn" class="border-gradient border-gradient-mod">R</button>
+      <button id="paper-btn" class="border-gradient border-gradient-mod">P</button>
+      <button id="scissors-btn" class="border-gradient border-gradient-mod">S</button>
+    </aside>
+    <nav>
+      <a href="https://www.linkedin.com/in/devin-hakola-63800a110/">LinkedIn</a>
+    </nav>
+  </body>
+</html>
